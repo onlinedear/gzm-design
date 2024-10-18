@@ -163,6 +163,7 @@ export class Layer extends Disposable {
             // canvas.app.editor.group(box)
             // box不支持蒙版/擦除效果，所以这里暂时先继续使用Group 有需要的可以自行实现一个Box的自定义组
             const group = canvas.app.editor.group()
+            group.zIndex = this.hierarchyService.getTopLevel().zIndex + 1
             canvas.bindDragDrop(group)
             canvas.childrenEffect()
             return false
