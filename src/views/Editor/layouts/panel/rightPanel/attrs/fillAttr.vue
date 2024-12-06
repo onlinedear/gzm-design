@@ -38,10 +38,13 @@ const refreshFill = () => {
     fill.value.onChange(fillArray.value.length <= 0 ? [] : fillArray.value)
 }
 const addFill = () => {
-    fillArray.value.push({
-        type: 'solid',
-        color: 'rgba(151,151,151,1)',
-    })
+    fillArray.value = [
+        ...fillArray.value,
+        {
+            type: "solid",
+            color: 'rgba(151,151,151,1)',
+        },
+    ];
     refreshFill()
 }
 const removeFill = (index) => {

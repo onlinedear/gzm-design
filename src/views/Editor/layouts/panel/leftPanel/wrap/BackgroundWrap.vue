@@ -87,12 +87,15 @@ const setBGcolor = (color:string) => {
     refreshFill()
 }
 const setBgImage = (item: any) => {
-    fillArray.value.push({
-        type: 'image',
-        url: item.url,
-    })
-    refreshFill()
-}
+    fillArray.value = [
+        ...fillArray.value,
+        {
+            type: "image",
+            url: item.url,
+        },
+    ];
+    refreshFill();
+};
 const { page } = usePageMixin()
 page.pageSize = 30
 const fetchData = () => {
