@@ -168,5 +168,8 @@ export class ToolBar extends Disposable {
         this.keybinding.bind('shift+r', () => {
             this.canvas.ruler.enabled = this.canvas.ref.enabledRuler.value = !this.canvas.ref.enabledRuler.value
         })
+        this.keybinding.bind('shift+t', () => {
+            this.canvas.guideLines.enabled = this.canvas.ref.enabledGuideLine.value = !this.canvas.ref.enabledGuideLine.value
+        })
     }
 }
