@@ -70,7 +70,7 @@ export class EditorUndoRedoService extends Disposable {
                 this.saveState()
             }
         })
-        canvas.contentFrame.on([ChildEvent.ADD, ChildEvent.REMOVE], (arg: PropertyEvent) => {
+        canvas.contentLayer.on([ChildEvent.ADD, ChildEvent.REMOVE], (arg: PropertyEvent) => {
             if (this.enablePropertyChange) {
                 this.saveState()
             }

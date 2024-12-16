@@ -33,8 +33,8 @@
             "editable": true,
             "fill": [
               {
-                "type":"image",
-                "url":"https://ossc.guozimi.cn/gzm-design/introduction/bg.jpg"
+                "type": "image",
+                "url": "https://ossc.guozimi.cn/gzm-design/introduction/bg.jpg"
               }
             ]
           },
@@ -53,8 +53,8 @@
             "editable": true,
             "fill": [
               {
-                "type":"image",
-                "url":"https://ossc.guozimi.cn/gzm-design/introduction/nr1.png"
+                "type": "image",
+                "url": "https://ossc.guozimi.cn/gzm-design/introduction/nr1.png"
               }
             ]
           },
@@ -73,8 +73,8 @@
             "editable": true,
             "fill": [
               {
-                "type":"image",
-                "url":"https://ossc.guozimi.cn/gzm-design/introduction/sz1.png"
+                "type": "image",
+                "url": "https://ossc.guozimi.cn/gzm-design/introduction/sz1.png"
               }
             ]
           },
@@ -180,8 +180,8 @@
             "editable": true,
             "fill": [
               {
-                "type":"image",
-                "url":"https://ossc.guozimi.cn/gzm-design/introduction/mb.png"
+                "type": "image",
+                "url": "https://ossc.guozimi.cn/gzm-design/introduction/mb.png"
               }
             ]
           },
@@ -435,7 +435,7 @@
       "cover": "https://ossc.guozimi.cn/gzm-design/lixia2/cover.jpg",
       "title": "国庆节节日祝福喜庆竖版海报",
       "state": 1,
-      "json":{
+      "json": {
         "tag": "Frame",
         "fill": [
           {
@@ -461,7 +461,12 @@
             "height": 3543,
             "draggable": true,
             "editable": true,
-            "fill":"#fff"
+            "fill": [
+              {
+                "type": "solid",
+                "color": "fff"
+              }
+            ]
           },
           {
             "tag": "Image2",
@@ -477,8 +482,8 @@
             "draggable": true,
             "editable": true,
             "fill": {
-              "type":"image",
-              "url":"https://ossc.guozimi.cn/gzm-design/lixia2/图层 1.jpg"
+              "type": "image",
+              "url": "https://ossc.guozimi.cn/gzm-design/lixia2/图层 1.jpg"
             }
           },
           {
@@ -495,8 +500,8 @@
             "draggable": true,
             "editable": true,
             "fill": {
-              "type":"image",
-              "url":"https://ossc.guozimi.cn/gzm-design/lixia2/sldxfb2.png"
+              "type": "image",
+              "url": "https://ossc.guozimi.cn/gzm-design/lixia2/sldxfb2.png"
             }
           },
           {
@@ -513,8 +518,8 @@
             "draggable": true,
             "editable": true,
             "fill": {
-              "type":"image",
-              "url":"https://ossc.guozimi.cn/gzm-design/lixia2/图层 4.png"
+              "type": "image",
+              "url": "https://ossc.guozimi.cn/gzm-design/lixia2/图层 4.png"
             }
           },
           {
@@ -531,8 +536,8 @@
             "draggable": true,
             "editable": true,
             "fill": {
-              "type":"image",
-              "url":"https://ossc.guozimi.cn/gzm-design/lixia2/图层 5.png"
+              "type": "image",
+              "url": "https://ossc.guozimi.cn/gzm-design/lixia2/图层 5.png"
             }
           },
           {
@@ -549,8 +554,8 @@
             "draggable": true,
             "editable": true,
             "fill": {
-              "type":"image",
-              "url":"https://ossc.guozimi.cn/gzm-design/lixia2/图层 6.png"
+              "type": "image",
+              "url": "https://ossc.guozimi.cn/gzm-design/lixia2/图层 6.png"
             }
           },
           {
@@ -567,8 +572,8 @@
             "draggable": true,
             "editable": true,
             "fill": {
-              "type":"image",
-              "url":"https://ossc.guozimi.cn/gzm-design/lixia2/图层 60 拷贝 2.png"
+              "type": "image",
+              "url": "https://ossc.guozimi.cn/gzm-design/lixia2/图层 60 拷贝 2.png"
             }
           },
           {
@@ -585,8 +590,8 @@
             "draggable": true,
             "editable": true,
             "fill": {
-              "type":"image",
-              "url":"https://ossc.guozimi.cn/gzm-design/lixia2/图层 60 拷贝 3.png"
+              "type": "image",
+              "url": "https://ossc.guozimi.cn/gzm-design/lixia2/图层 60 拷贝 3.png"
             }
           },
           {
@@ -603,8 +608,8 @@
             "draggable": true,
             "editable": true,
             "fill": {
-              "type":"image",
-              "url":"https://ossc.guozimi.cn/gzm-design/lixia2/图层 12.png"
+              "type": "image",
+              "url": "https://ossc.guozimi.cn/gzm-design/lixia2/图层 12.png"
             }
           },
           {
@@ -1103,7 +1108,12 @@
                 "tag": "Text",
                 "width": 165,
                 "height": 38,
-                "fill": "rgb(215.99775,161.0019,83.0025)",
+                "fill": [
+                  {
+                    "type": "solid",
+                    "color": "rgb(215.99775,161.0019,83.0025)"
+                  }
+                ],
                 "text": "知识结构",
                 "fontFamily": "SourceHanSansSC-Regular",
                 "fontSize": 40,
@@ -1131,7 +1141,12 @@
                 "tag": "Text",
                 "width": 125,
                 "height": 15,
-                "fill": "rgb(215.99775,161.0019,83.0025)",
+                "fill": [
+                  {
+                    "type": "solid",
+                    "color": "rgb(215.99775,161.0019,83.0025)"
+                  }
+                ],
                 "text": "STRUCTURE",
                 "fontFamily": "ArialMT",
                 "fontSize": 20,
@@ -1159,7 +1174,12 @@
                 "tag": "Text",
                 "width": 289,
                 "height": 239,
-                "fill": "rgb(255,254.57925,254.00039999999998)",
+                "fill": [
+                  {
+                    "type": "solid",
+                    "color": "rgb(255,254.57925,254.00039999999998)"
+                  }
+                ],
                 "text": "公司设立的税收筹划  \n采购与销售环节的税务问题\n费用报销税务问题\n\n资产的税务问题\n  个人所得税的税务问题  \n税收优惠政策",
                 "fontFamily": "AdobeHeitiStd-Regular",
                 "fontSize": 24,
@@ -1298,7 +1318,12 @@
                         "tag": "Text",
                         "width": 97,
                         "height": 23,
-                        "fill": "rgb(44.00025,45.999449999999996,70.00004999999999)",
+                        "fill": [
+                          {
+                            "type": "solid",
+                            "color": "rgb(44.00025,45.999449999999996,70.00004999999999)"
+                          }
+                        ],
                         "text": "职场精英",
                         "fontFamily": "SourceHanSansSC-Regular",
                         "fontSize": 24,
@@ -1326,7 +1351,12 @@
                         "tag": "Text",
                         "width": 73,
                         "height": 23,
-                        "fill": "rgb(44.00025,45.999449999999996,70.00004999999999)",
+                        "fill": [
+                          {
+                            "type": "solid",
+                            "color": "rgb(44.00025,45.999449999999996,70.00004999999999)"
+                          }
+                        ],
                         "text": "  投资者",
                         "fontFamily": "SourceHanSansSC-Regular",
                         "fontSize": 24,
@@ -1354,7 +1384,12 @@
                         "tag": "Text",
                         "width": 97,
                         "height": 23,
-                        "fill": "rgb(44.00025,45.999449999999996,70.00004999999999)",
+                        "fill": [
+                          {
+                            "type": "solid",
+                            "color": "rgb(44.00025,45.999449999999996,70.00004999999999)"
+                          }
+                        ],
                         "text": "  企业高管",
                         "fontFamily": "SourceHanSansSC-Regular",
                         "fontSize": 24,
@@ -1433,7 +1468,12 @@
                         "tag": "Text",
                         "width": 97,
                         "height": 24,
-                        "fill": "rgb(44.00025,45.999449999999996,70.00004999999999)",
+                        "fill": [
+                          {
+                            "type": "solid",
+                            "color": "rgb(44.00025,45.999449999999996,70.00004999999999)"
+                          }
+                        ],
                         "text": "财务人员",
                         "fontFamily": "AdobeHeitiStd-Regular",
                         "fontSize": 24,
@@ -1461,7 +1501,12 @@
                         "tag": "Text",
                         "width": 122,
                         "height": 24,
-                        "fill": "rgb(44.00025,45.999449999999996,70.00004999999999)",
+                        "fill": [
+                          {
+                            "type": "solid",
+                            "color": "rgb(44.00025,45.999449999999996,70.00004999999999)"
+                          }
+                        ],
                         "text": "高净值人群",
                         "fontFamily": "SourceHanSansSC-Regular",
                         "fontSize": 24,
@@ -1523,7 +1568,12 @@
                     "tag": "Text",
                     "width": 166,
                     "height": 38,
-                    "fill": "rgb(44.00025,45.999449999999996,70.00004999999999)",
+                    "fill": [
+                      {
+                        "type": "solid",
+                        "color": "rgb(44.00025,45.999449999999996,70.00004999999999)"
+                      }
+                    ],
                     "text": "适合谁听",
                     "fontFamily": "SourceHanSansSC-Regular",
                     "fontSize": 40,
@@ -1551,7 +1601,12 @@
                     "tag": "Text",
                     "width": 99,
                     "height": 15,
-                    "fill": "rgb(44.00025,45.999449999999996,70.00004999999999)",
+                    "fill": [
+                      {
+                        "type": "solid",
+                        "color": "rgb(44.00025,45.999449999999996,70.00004999999999)"
+                      }
+                    ],
                     "text": "SUITABLE",
                     "fontFamily": "ArialMT",
                     "fontSize": 20,
@@ -1670,7 +1725,12 @@
                 "tag": "Text",
                 "width": 165,
                 "height": 38,
-                "fill": "rgb(44.00025,45.999449999999996,70.00004999999999)",
+                "fill": [
+                  {
+                    "type": "solid",
+                    "color": "rgb(44.00025,45.999449999999996,70.00004999999999)"
+                  }
+                ],
                 "text": "课程特色",
                 "fontFamily": "SourceHanSansSC-Regular",
                 "fontSize": 40,
@@ -1698,7 +1758,12 @@
                 "tag": "Text",
                 "width": 142,
                 "height": 16,
-                "fill": "rgb(44.00025,45.999449999999996,70.00004999999999)",
+                "fill": [
+                  {
+                    "type": "solid",
+                    "color": "rgb(44.00025,45.999449999999996,70.00004999999999)"
+                  }
+                ],
                 "text": "CURRICULUM",
                 "fontFamily": "ArialMT",
                 "fontSize": 20,
@@ -1726,7 +1791,12 @@
                 "tag": "Text",
                 "width": 600,
                 "height": 60,
-                "fill": "rgb(44.00025,45.999449999999996,70.00004999999999)",
+                "fill": [
+                  {
+                    "type": "solid",
+                    "color": "rgb(44.00025,45.999449999999996,70.00004999999999)"
+                  }
+                ],
                 "text": "抛开千篇一律教条化财务内容，用最直接最实用的核算方法，每天花碎片时间20分钟，让税务不再困扰你！",
                 "fontFamily": "SourceHanSansSC-Regular",
                 "fontSize": 24,
@@ -1881,7 +1951,12 @@
                 "tag": "Text",
                 "width": 236,
                 "height": 24,
-                "fill": "rgb(44.00025,45.999449999999996,70.00004999999999)",
+                "fill": [
+                  {
+                    "type": "solid",
+                    "color": "rgb(44.00025,45.999449999999996,70.00004999999999)"
+                  }
+                ],
                 "text": "合法纳税 ×合法避税",
                 "fontFamily": "AdobeHeitiStd-Regular",
                 "fontSize": 24,
@@ -1909,7 +1984,12 @@
                 "tag": "Text",
                 "width": 296,
                 "height": 118,
-                "fill": "rgb(215.99775,161.0019,83.0025)",
+                "fill": [
+                  {
+                    "type": "solid",
+                    "color": "rgb(215.99775,161.0019,83.0025)"
+                  }
+                ],
                 "text": "认认真真生活\n明明白白交税",
                 "fontFamily": "AdobeHeitiStd-Regular",
                 "fontSize": 48,
@@ -1937,7 +2017,12 @@
                 "tag": "Text",
                 "width": 287,
                 "height": 121,
-                "fill": "rgb(235.00035,177.0006,95.99730000000001)",
+                "fill": [
+                  {
+                    "type": "solid",
+                    "color": "rgb(235.00035,177.0006,95.99730000000001)"
+                  }
+                ],
                 "text": "认认真真生活\n明明白白交税",
                 "fontFamily": "PingFangSC-Regular",
                 "fontSize": 75.81177,
