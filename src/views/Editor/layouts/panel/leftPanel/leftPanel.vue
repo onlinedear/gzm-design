@@ -44,53 +44,8 @@ const widgetClassifyList =  [
         icon: 'icon-apps',
         show: false,
         component: TempListWrap,
-    },
-    {
-        name: '文字',
-        icon: 'icon-edit',
-        show: false,
-        component: TextListWrap,
-    },
-    {
-        name: '元素',
-        icon: 'icon-star',
-        show: false,
-        component: ElementListWrap,
-    },
-    {
-        name: '素材',
-        icon: 'icon-common',
-        show: false,
-        component: GraphListWrap,
-    },
-    {
-        name: '图片',
-        icon: 'icon-image',
-        show: false,
-        component: ImageListWrap,
-    },
-    {
-        name: '背景',
-        icon: 'icon-mosaic',
-        show: false,
-        component: BackgroundWrap,
-    },
-    {
-        name: '工具',
-        icon: 'icon-qrcode',
-        show: false,
-        component: ToolsWrap,
-    },
-    {
-        name: 'AI',
-        icon: 'icon-robot',
-        show: false,
-    },
-    {
-        name: '我的',
-        icon: 'icon-user',
-        show: false,
-    },
+    }
+
 ]
 const activeWidgetClassify =  ref(0)
 const active =  ref(true)
