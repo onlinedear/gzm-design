@@ -32,8 +32,8 @@ const {editor} = useEditor()
 const keyword = ref();
 const cateList = reactive([
     {label:'全部',value:'-1'},
-    {label:'风景图片',value:'1111'},
-    {label:'插画图片',value:'1111'},
+    {label:'移动端封面',value:'1111'},
+    {label:'桌面端封面',value:'2222'},
 ]);
 const changeCate = (e) => {
     console.log('e=',e)
