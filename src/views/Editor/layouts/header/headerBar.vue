@@ -2,10 +2,10 @@
     <div class="header-box">
         <div class="flex items-center h-40px px-2 header-bar">
             <div class="flex-1 flex items-center">
-                <div class="text-center px-15px">
+                <img src="/logo.png" style="width: 25px"/>
+                <div class="text-center px-5px">
                     <div style="width: max-content">
-                        <icon-home class="m-r-5px" :size="20"/>
-                        <span class="black font-bold">果子米-开源海报设计器</span>
+                        <span class="black font-bold">麦麦海报编辑器</span>
                     </div>
                 </div>
                 <a-divider direction="vertical"/>
@@ -15,8 +15,13 @@
                 <a-divider direction="vertical"/>
                 <a-space size="medium">
                     <a-tooltip effect="dark" content="标尺" mini>
-                        <a-button class="icon-btn pd-5px"  @click="changeLineGuides">
-                            <icon-paste :size="18" :class="canvas.enabledRuler?'arco-icon-check':''"/>
+                        <a-button class="icon-btn pd-5px"  @click="changeRuler">
+                            <icon-paste :size="18" :class="canvas.ref.enabledRuler.value?'arco-icon-check':''"/>
+                        </a-button>
+                    </a-tooltip>
+                    <a-tooltip effect="dark" content="吸附线" mini>
+                        <a-button class="icon-btn pd-5px"  @click="changeGuideLine">
+                            <ali-icon type="icon-wangge1" class="text-size-16px" :class="canvas.ref.enabledGuideLine.value?'arco-icon-check':''"></ali-icon>
                         </a-button>
                     </a-tooltip>
                 </a-space>
@@ -53,15 +58,18 @@ import SaveOper from './right/saveOper.vue'
 import ToolBar from './center/toolBar.vue'
 import {isDefined} from '@vueuse/core'
 import {typeUtil} from "@/views/Editor/utils/utils";
+import SvgIcon from "@/components/svgIcon/svgIcon.vue";
 
 Platform.image.suffix= ''
 const {canvas,keybinding} = useEditor()
 // import LineGuides from "@/views/Editor/layouts/canvasEdit/lineGuides.vue";
 
-const changeLineGuides = ()=> {
+const changeRuler = ()=> {
     keybinding.trigger("shift+r")
 }
-
+const changeGuideLine = ()=> {
+    keybinding.trigger("shift+t")
+}
 
 </script>
 <style lang="less">
