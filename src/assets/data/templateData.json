@@ -209,7 +209,216 @@
                 }
               ]
         }
-      }
-
+      },
+      {
+        "id": 2,
+        "cover": "https://rgmboss.com/image/nabit/PC%20banner1000_600_1hong1.png",
+        "title": "Nabit 红色 PC",
+        "state": 1111,
+        "json": {
+                "tag": "Frame",
+                "fill": [
+                  {
+                    "type": "solid",
+                    "color": "#ffffff"
+                  }
+                ],
+                "solid": [],
+                "shadow": [],
+                "innerShadow": [],
+                "id": "e5a62db5-2ef8-4fa6-b6a3-02bbd0a8deb5",
+                "name": "workspace",
+                "width": 1000,
+                "height": 600,
+                "data": {},
+                "states": {},
+                "children": [
+                  {
+                    "tag": "Image2",
+                    "name": "bannerbg_1@2x",
+                    "blendMode": "normal",
+                    "opacity": 1,
+                    "visible": true,
+                    "zIndex": 1,
+                    "x": 0,
+                    "y": 0,
+                    "width": 1000,
+                    "height": 600,
+                    "editable": true,
+                    "fill": [
+                      {
+                        "type": "image",
+                        "url": "blob:https://design.rgmboss.com/592a55c1-9512-403c-b32c-be64ee55eb6f",
+                        "mode": "cover"
+                      }
+                    ],
+                    "data": {},
+                    "states": {}
+                  },
+                  {
+                    "tag": "Text",
+                    "width": 355,
+                    "height": 78,
+                    "fill": "rgb(255,255,255)",
+                    "text": "每周要闻",
+                    "fontFamily": "方正正中黑",
+                    "fontSize": 85,
+                    "letterSpacing": {
+                      "type": "px",
+                      "value": 0
+                    },
+                    "lineHeight": {
+                      "type": "percent",
+                      "value": 1.5
+                    },
+                    "verticalAlign": "middle",
+                    "name": "每周要闻",
+                    "opacity": 1,
+                    "visible": true,
+                    "zIndex": 2,
+                    "x": 84,
+                    "y": 179,
+                    "editable": true,
+                    "data": {},
+                    "states": {}
+                  },
+                  {
+                    "tag": "Text",
+                    "width": 358,
+                    "height": 77,
+                    "fill": "rgb(255,255,255)",
+                    "text": "系统更新",
+                    "fontFamily": "方正正中黑",
+                    "fontSize": 85,
+                    "letterSpacing": {
+                      "type": "px",
+                      "value": 0
+                    },
+                    "lineHeight": {
+                      "type": "percent",
+                      "value": 1.5
+                    },
+                    "verticalAlign": "middle",
+                    "name": "系统更新",
+                    "opacity": 1,
+                    "visible": true,
+                    "zIndex": 3,
+                    "x": 84,
+                    "y": 282,
+                    "editable": true,
+                    "data": {},
+                    "states": {}
+                  },
+                  {
+                    "tag": "Text",
+                    "width": 50,
+                    "height": 32,
+                    "fill": "rgb(255,187.99875,0)",
+                    "text": "月",
+                    "fontFamily": "PingFangHK-Medium",
+                    "fontSize": 35,
+                    "letterSpacing": {
+                      "type": "px",
+                      "value": 0
+                    },
+                    "lineHeight": {
+                      "type": "percent",
+                      "value": 1.5
+                    },
+                    "verticalAlign": "middle",
+                    "name": "月",
+                    "opacity": 1,
+                    "visible": true,
+                    "zIndex": 4,
+                    "x": 129,
+                    "y": 407,
+                    "editable": true,
+                    "data": {},
+                    "states": {}
+                  },
+                  {
+                    "tag": "Text",
+                    "width": 61,
+                    "height": 45,
+                    "fill": "rgb(255,187.99875,0)",
+                    "text": "5",
+                    "fontFamily": "Speedee-Bold",
+                    "fontSize": 67.5,
+                    "letterSpacing": {
+                      "type": "px",
+                      "value": 0
+                    },
+                    "lineHeight": {
+                      "type": "percent",
+                      "value": 1.5
+                    },
+                    "verticalAlign": "middle",
+                    "name": "5",
+                    "opacity": 1,
+                    "visible": true,
+                    "zIndex": 5,
+                    "x": 86,
+                    "y": 396,
+                    "editable": true,
+                    "data": {},
+                    "states": {}
+                  },
+                  {
+                    "tag": "Text",
+                    "width": 271,
+                    "height": 37,
+                    "fill": "rgb(255,187.99875,0)",
+                    "text": "｜NABIT Update",
+                    "fontFamily": "PingFangSC-Light",
+                    "fontSize": 35,
+                    "letterSpacing": {
+                      "type": "px",
+                      "value": 0
+                    },
+                    "lineHeight": {
+                      "type": "percent",
+                      "value": 1.5
+                    },
+                    "verticalAlign": "middle",
+                    "name": "｜NABIT Update",
+                    "opacity": 1,
+                    "visible": true,
+                    "zIndex": 6,
+                    "x": 173,
+                    "y": 405,
+                    "editable": true,
+                    "data": {},
+                    "states": {}
+                  },
+                  {
+                    "tag": "Text",
+                    "width": 240,
+                    "height": 33,
+                    "fill": "rgb(255,255,255)",
+                    "text": "Weekly News",
+                    "fontFamily": "PingFangSC-Regular",
+                    "fontSize": 34.772652306837394,
+                    "letterSpacing": {
+                      "type": "px",
+                      "value": 0
+                    },
+                    "lineHeight": {
+                      "type": "percent",
+                      "value": 1.5
+                    },
+                    "verticalAlign": "middle",
+                    "name": "Weekly News",
+                    "opacity": 1,
+                    "visible": true,
+                    "zIndex": 7,
+                    "x": 87,
+                    "y": 124,
+                    "editable": true,
+                    "data": {},
+                    "states": {}
+                  }
+                ]
+          }
+        }
   ]
 }
