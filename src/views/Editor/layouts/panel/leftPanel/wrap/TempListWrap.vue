@@ -41,8 +41,9 @@ import {queryTemplateList} from "@/api/editor/materials";
 const keyword = ref();
 const cateList = reactive([
     {label:'全部',value:'-1'},
-    {label:'风景图片',value:'1111'},
-    {label:'插画图片',value:'1111'},
+    {label:'PC',value:'1111'},
+    {label:'APP',value:'2222'},
+    {label:'TV',value:'2222'},
 ]);
 const changeCate = (e) => {
     console.log('e=',e)
